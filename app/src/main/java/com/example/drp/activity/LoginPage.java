@@ -62,9 +62,9 @@ public class LoginPage extends AppCompatActivity {
         loginPageUserID = findViewById(R.id.login_ID);
         loginPageAccPassword = findViewById(R.id.login_password);
         forgotPasswordTvBtn = findViewById(R.id.forgot_password_tvbtn);
-        goBtn = (Button) findViewById(R.id.login_button);
-        verifyNoBtn = (Button) findViewById(R.id.verify_phone_no_page_button);
-        rememberMeToggleCb = (CheckBox) findViewById(R.id.remember_me_toggle);
+        goBtn = findViewById(R.id.login_button);
+        verifyNoBtn = findViewById(R.id.verify_phone_no_page_button);
+        rememberMeToggleCb = findViewById(R.id.remember_me_toggle);
 
         rememberMeSessionManager = new LoginSessionManager(LoginPage.this);
         if (rememberMeSessionManager.checkLogin()) {
