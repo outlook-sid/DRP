@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "539692040813",
+    "project_id": "digital-ration-project",
+    "storage_bucket": "digital-ration-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539692040813:android:e738e779ca291dc081b564",
+        "android_client_info": {
+          "package_name": "com.example.drp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539692040813-japtnro46lmvuhaue3abkoqrb1kekdmr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA1Rdr_CYs8KsVVwOsWnqbEo9R9Nd4wRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539692040813-japtnro46lmvuhaue3abkoqrb1kekdmr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

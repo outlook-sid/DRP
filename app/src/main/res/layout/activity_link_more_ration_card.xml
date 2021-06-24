@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".activity.LinkMoreRationCard">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/link_more_ration_card_super_c_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_gradient_pink"
+        android:transitionName="transition_card_1">
+
+
+        <ImageView
+            android:id="@+id/img_link_card_header"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_baseline_link_ration_card"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.035"
+            app:tint="@color/color_DeepBlack"/>
+
+        <TextView
+            android:id="@+id/txt_link_card_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/archivo_black"
+            android:text="@string/link_more_card"
+            android:textAlignment="center"
+            android:textColor="@color/color_DeepBlack"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img_link_card_header"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <LinearLayout
+            android:id="@+id/edit_text_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_link_card_header"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:id="@+id/message_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/example_text"
+                android:textColor="@color/color_Grey"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="280dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/color_FadedBlack" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/link_card_card0_wrapper"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:animateLayoutChanges="true"
+                android:hint="Ration Card ID"
+                app:boxStrokeColor="@color/color_DeepBlack"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:helperTextTextColor="@color/color_FadedBlack"
+                app:hintTextColor="@color/color_FadedBlack"
+                app:startIconDrawable="@drawable/ic_vector_edit_text"
+                app:startIconTint="@color/color_FadedBlack">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/link_card_card0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_slab"
+                    android:inputType="text"
+                    android:maxLength="20"
+                    android:textColor="@color/color_DeepBlack"
+                    android:textSize="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/link_card_card1_wrapper"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:animateLayoutChanges="true"
+                android:hint="Ration Card ID"
+                app:boxStrokeColor="@color/color_DeepBlack"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:helperTextTextColor="@color/color_FadedBlack"
+                app:hintTextColor="@color/color_FadedBlack"
+                app:startIconDrawable="@drawable/ic_vector_edit_text"
+                app:startIconTint="@color/color_FadedBlack">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/link_card_card1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_slab"
+                    android:inputType="text"
+                    android:maxLength="20"
+                    android:textColor="@color/color_DeepBlack"
+                    android:textSize="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/link_card_card2_wrapper"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:animateLayoutChanges="true"
+                android:hint="Ration Card ID"
+                android:visibility="gone"
+                app:boxStrokeColor="@color/color_DeepBlack"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:helperTextTextColor="@color/color_FadedBlack"
+                app:hintTextColor="@color/color_FadedBlack"
+                app:startIconDrawable="@drawable/ic_vector_edit_text"
+                app:startIconTint="@color/color_FadedBlack">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/link_card_card2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_slab"
+                    android:inputType="text"
+                    android:maxLength="20"
+                    android:textColor="@color/color_DeepBlack"
+                    android:textSize="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/link_card_card3_wrapper"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:animateLayoutChanges="true"
+                android:hint="Ration Card ID"
+                android:visibility="gone"
+                app:boxStrokeColor="@color/color_DeepBlack"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:helperTextTextColor="@color/color_FadedBlack"
+                app:hintTextColor="@color/color_FadedBlack"
+                app:startIconDrawable="@drawable/ic_vector_edit_text"
+                app:startIconTint="@color/color_FadedBlack">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/link_card_card3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_slab"
+                    android:inputType="text"
+                    android:maxLength="20"
+                    android:textColor="@color/color_DeepBlack"
+                    android:textSize="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/link_card_card4_wrapper"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:animateLayoutChanges="true"
+                android:hint="Ration Card ID"
+                android:visibility="gone"
+                app:boxStrokeColor="@color/color_DeepBlack"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:helperTextTextColor="@color/color_FadedBlack"
+                app:hintTextColor="@color/color_FadedBlack"
+                app:startIconDrawable="@drawable/ic_vector_edit_text"
+                app:startIconTint="@color/color_FadedBlack">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/link_card_card4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_slab"
+                    android:inputType="text"
+                    android:maxLength="20"
+                    android:textColor="@color/color_DeepBlack"
+                    android:textSize="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edit_text_linear_layout"
+            app:layout_constraintVertical_bias="0.2">
+
+            <ImageButton
+                android:id="@+id/link_card_next_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_vector_next_arrow" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/link_more_ration_card_pb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edit_text_linear_layout"
+            app:layout_constraintVertical_bias="0.2" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edit_text_linear_layout"
+            app:layout_constraintVertical_bias="0.99">
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginTop="3dp"
+                android:src="@android:drawable/ic_dialog_info" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:text="pleas note that you can link maximum 5 ration cards"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

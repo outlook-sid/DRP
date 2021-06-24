@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E1CCFF</color>
+    <color name="colorPrimaryDark">#131339</color>
+    <color name="colorAccent">#b3e0ff</color>
+    <color name="color_Transparent">#00FFFFFF</color>
+
+    <color name="color_LemonYellow">#ffff00</color>
+    <color name="color_Amber">#ff9933</color>
+    <color name="color_DeepBlue">#000033</color>
+    <color name="color_DarkBlue">#00001a</color>
+    <color name="color_DeepBlack">#000000</color>
+    <color name="color_PureWhite">#ffffff</color>
+    <color name="color_Grey">#737373</color>
+    <color name="color_GreenGrey">#3D4F54</color>
+    <color name="color_SkyBlue">#1aa3ff</color>
+    <color name="color_SeaGreen">#47d1d1</color>
+    <color name="color_FadedBlue">#5A6FE3</color>
+    <color name="color_Blue">#0066cc</color>
+    <color name="color_Blue1">#1981CA</color>
+
+    <color name="color_FadedBlack">#262626</color>
+    <color name="color_LitePink">#FAB7B7</color>
+    <color name="color_FadedBrown">#cc6666</color>
+    <color name="color_Red">#d70f0f</color>
+    <color name="color_RedBrown">#661a00</color>
+    <color name="color_LeafGreen">#049534</color>
+    <color name="color_FadedGreen">#ccffcc</color>
+    <color name="color_BluishGrey">#B6B0CA</color>
+    <color name="color_LitePurple">#e6ccff</color>
+    <color name="color_BluishGreen">#0BB2AA</color>
+
+    <color name="color_dashboard_card_1">#ffcce0</color>
+    <color name="color_dashboard_card_2">#ebccff</color>
+    <color name="color_dashboard_card_3">#ccddff</color>
+    <color name="color_dashboard_card_4">#ffdab3</color>
+
+</resources>

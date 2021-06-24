@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.drp">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.OnlinePayment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PaymentResultPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.VerifyRationCard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.UserInventoryPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.GroceriesPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TransactionHistoryPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.NewTransactionPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AccountDetailsPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LinkMoreRationCard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PasswordChangedPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ResetPassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ForgotPasswordPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.UserDashboardPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CheckAccDetailsAgainPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SignUpPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CheckOTP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.VerifyPhoneNo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LoginPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <receiver android:name=".ReminderBroadcast"/>
+    </application>
+
+</manifest>
