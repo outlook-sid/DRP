@@ -16,7 +16,6 @@ public class ReminderBroadcast extends BroadcastReceiver {
         String title = intent.getStringExtra("title");
         String body = intent.getStringExtra("body");
         String big = intent.getStringExtra("big");
-        Log.v("____Broadcast_____",title+"\n"+body+"\n"+big);
 
         NotificationHelper notificationHelper = new NotificationHelper(context);
         notificationHelper.createNotification(title, body, big);

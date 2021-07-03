@@ -16,7 +16,7 @@ import com.example.drp.activity.SplashScreen;
 
 public class NotificationHelper {
 
-    private Context context;
+    private final Context context;
     public static final String NOTIFICATION_CHANNEL_ID = "14001";
     public static final String NOTIFICATION_CHANNEL_NAME = "Notification for ration collection";
     public static final String NOTIFICATION_CHANNEL_DESCRIPTION = "Shows reminder for ration collection";
